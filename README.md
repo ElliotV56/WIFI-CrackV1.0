@@ -46,20 +46,26 @@ Tested On :
 -  𝐏𝐚𝐫𝐫𝐨𝐭 𝐎𝐒 ![Parrot OS](https://img.shields.io/badge/Parrot_OS-FF6600?style=for-the-badge&logo=parrotos&logoColor=white)
 -  𝐔𝐛𝐮𝐧𝐭𝐮 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
-# WiFi Toolkit for Ubuntu ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+## Installation Guides
 
+### Kali Linux
 ```bash
 # 1. Update system
 sudo apt update && sudo apt full-upgrade -y
 
-# 2. Install critical tools
-sudo apt install -y \
-    git \
-    aircrack-ng \
-    python3-pip \
-    libssl-dev \
-    wireless-tools \
-    hcxdumptool
+# 2. Install additional tools
+sudo apt install -y hcxtools hcxdumptool bully
 
 # 3. Clone repository
-git clone https://github.com/Ell
+git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
+cd WIFI-CrackV1.0
+
+# 4. Install Python requirements
+pip3 install -r requirements.txt
+
+# 5. Enable monitor mode
+sudo airmon-ng check kill
+sudo airmon-ng start wlan0
+
+# 6. Run tool
+sudo python3 WIFI-C.py
