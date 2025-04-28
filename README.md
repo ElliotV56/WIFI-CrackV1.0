@@ -65,7 +65,7 @@ sudo apt install -y \
 git clone https://github.com/Ell
 
 
-# WiFi Toolkit for Parrot OS ![Parrot OS](https://img.shields.io/badge/Parrot_Security-FF6600?style=for-the-badge&logo=parrotsecurity&logoColor=white)
+WiFi Toolkit for Parrot OS ![Parrot OS](https://img.shields.io/badge/Parrot_Security-FF6600?style=for-the-badge&logo=parrotsecurity&logoColor=white)
 
 ```bash
 # 1. Update system (Parrot uses special upgrade)
