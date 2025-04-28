@@ -19,6 +19,15 @@
 
 ---
 
+## 📸 Screenshots  
+
+### **Termux Network Scan**  
+![Termux Scan](screenshots/termux_scan.png)  
+
+### **Handshake Capture**  
+![Handshake Demo](screenshots/handshake_capture.jpg)  
+
+
 ## Installation  
 ### Prerequisites  
 - Linux
