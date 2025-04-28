@@ -43,7 +43,9 @@ Tested On :
 ### Prerequisites  
 - Linux
 - Termux
-- Python 3.x  
+-  Parrot OS
+-  Ubuntu
+-  Debian
 ```bash
 1) sudo apt install python3-pip
 2) sudo apt-get update && apt-get install git
