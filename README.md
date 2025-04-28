@@ -45,8 +45,9 @@ Tested On :
 - Termux
 - Python 3.x  
 - 
-```bash 
-1) sudo apt-get update && apt-get install git
-2) sudo git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
-3) cd WIFI-CRACK
-4) sudo python3 WIFI-C.py
+```bash
+1)sudo apt install python3-pip
+2) sudo apt-get update && apt-get install git
+3) sudo git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
+4) cd WIFI-CRACK
+5) sudo python3 WIFI-C.py
