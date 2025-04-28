@@ -48,7 +48,7 @@ Tested On :
 
 ## Installation Guides
 
-### Kali Linux
+### Kali Linux ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
 ```bash
 # 1. Update system
 sudo apt update && sudo apt full-upgrade -y
@@ -60,12 +60,5 @@ sudo apt update && sudo apt full-upgrade -y
 git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
 cd WIFI-CrackV1.0
 
-# 4. Install Python requirements
-pip3 install -r requirements.txt
-
-# 5. Enable monitor mode
-sudo airmon-ng check kill
-sudo airmon-ng start wlan0
-
-# 6. Run tool
+# 4. Run tool
 sudo python3 WIFI-C.py
