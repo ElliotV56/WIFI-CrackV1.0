@@ -45,9 +45,65 @@ Tested On :
 - 𝐓𝐄𝐑𝐌𝐔𝐗 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
 -  𝐏𝐚𝐫𝐫𝐨𝐭 𝐎𝐒 ![Parrot OS](https://img.shields.io/badge/Parrot_OS-FF6600?style=for-the-badge&logo=parrotos&logoColor=white)
 -  𝐔𝐛𝐮𝐧𝐭𝐮 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
+# WiFi Toolkit for Ubuntu ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+
 ```bash
-1) sudo apt install python3-pip
-2) sudo apt-get update && apt-get install git
-3) sudo git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
-4) cd WIFI-CRACK
-5) sudo python3 WIFI-C.py
+# 1. Update system
+sudo apt update && sudo apt full-upgrade -y
+
+# 2. Install critical tools
+sudo apt install -y \
+    git \
+    aircrack-ng \
+    python3-pip \
+    libssl-dev \
+    wireless-tools \
+    hcxdumptool
+
+# 3. Clone repository
+git clone https://github.com/Ell
+
+
+# WiFi Toolkit for Parrot OS ![Parrot OS](https://img.shields.io/badge/Parrot_Security-FF6600?style=for-the-badge&logo=parrotsecurity&logoColor=white)
+
+```bash
+# 1. Update system (Parrot uses special upgrade)
+sudo apt update && sudo parrot-upgrade -y
+
+# 2. Install missing dependencies (most tools pre-installed)
+sudo apt install -y python3-pip hcxtools
+
+# 3. Clone repository
+git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
+cd WIFI-CrackV1.0
+
+# 4. Install Python requirements
+pip3 install -r requirements.txt
+
+# 5. Run tool (usually needs sudo for packet injection)
+sudo python3 WIFI-C.py
+
+
+# WiFi Auditing Toolkit for Kali Linux ![Kali](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+
+```bash
+# 1. Update Kali (always do this first)
+sudo apt update && sudo apt full-upgrade -y
+
+# 2. Install additional tools (most are pre-installed)
+sudo apt install -y hcxtools hcxdumptool bully
+
+# 3. Clone the repository
+git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
+cd WIFI-CrackV1.0
+
+# 4. Install Python requirements
+pip3 install -r requirements.txt
+
+# 5. Put your Wi-Fi card in monitor mode
+sudo airmon-ng check kill
+sudo airmon-ng start wlan0
+
+# 6. Run the tool with elevated privileges
+sudo python3 WIFI-C.py
