@@ -21,11 +21,11 @@
 
 ## 📸 Screenshots  
 
-### **Termux Network Scan**  
+### **SCREENSHOTS**  
 ![Termux Scan](main.png)  
 
-### **Handshake Capture**  
-![Handshake Demo](screenshots/handshake_capture.jpg)  
+### **SCREENSHOTS**  
+![Handshake Demo](main2.png)  
 
 
 ## Installation  
