@@ -44,7 +44,6 @@ Tested On :
 - Linux
 - Termux
 - Python 3.x  
-- 
 ```bash
 1) sudo apt install python3-pip
 2) sudo apt-get update && apt-get install git
