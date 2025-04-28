@@ -69,19 +69,3 @@ sudo airmon-ng start wlan0
 
 # 6. Run tool
 sudo python3 WIFI-C.py
-----------------
-# 1. Update system
-sudo apt update && sudo parrot-upgrade -y
-
-# 2. Install dependencies
-sudo apt install -y python3-pip hcxtools
-
-# 3. Clone repository
-git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
-cd WIFI-CrackV1.0
-
-# 4. Install Python requirements
-pip3 install -r requirements.txt
-
-# 5. Run tool
-sudo python3 WIFI-C.py
