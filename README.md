@@ -53,8 +53,8 @@ Tested On :
 # 1. Update system
 sudo apt update && sudo apt full-upgrade -y
 
-# 2. Install additional tools
-sudo apt install -y hcxtools hcxdumptool bully
+# 2. install python
+ sudo apt install python3-pip
 
 # 3. Clone repository
 git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
