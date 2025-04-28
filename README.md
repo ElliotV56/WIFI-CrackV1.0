@@ -44,7 +44,6 @@ Tested On :
 - Linux
 - Termux
 - Python 3.x  
-- `aircrack-ng`, `scapy`, `reaver` (Install via `apt`):
 - 
 ```bash 
 1) sudo apt-get update && apt-get install git
