@@ -2,7 +2,8 @@
 # WiFi Cracking Tool 🔓📡  
 *A powerful security auditing tool for testing Wi-Fi network vulnerabilities (WEP/WPA/WPA2).*  
 
-![GitHub license](https://img.shields.io/github/license/your-username/wifi-crack-tool?color=red)  
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)  
 
 ⚠ **Warning**: Use this tool **only** on networks you own or have permission to test. Unauthorized access is illegal.  
