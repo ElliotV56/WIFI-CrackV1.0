@@ -26,4 +26,7 @@
 - `aircrack-ng`, `scapy`, `reaver` (Install via `apt`):  
 
 ```bash
-sudo apt update && sudo apt install aircrack-ng scapy reaver -y
+1) sudo apt-get update && apt-get install git
+2) sudo git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
+3) cd WIFI-CRACK
+4) sudo python3 WIFI-C.py
