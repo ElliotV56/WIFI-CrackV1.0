@@ -46,7 +46,7 @@ Tested On :
 - Python 3.x  
 - 
 ```bash
-1)sudo apt install python3-pip
+1) sudo apt install python3-pip
 2) sudo apt-get update && apt-get install git
 3) sudo git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
 4) cd WIFI-CRACK
