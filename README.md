@@ -22,7 +22,7 @@
 ## 📸 Screenshots  
 
 ### **Termux Network Scan**  
-![Termux Scan](screenshots/termux_scan.png)  
+![Termux Scan](main.png)  
 
 ### **Handshake Capture**  
 ![Handshake Demo](screenshots/handshake_capture.jpg)  
