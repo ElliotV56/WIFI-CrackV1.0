@@ -62,3 +62,4 @@ cd WIFI-CrackV1.0
 
 # 4. Run tool
 sudo python3 WIFI-C.py
+
