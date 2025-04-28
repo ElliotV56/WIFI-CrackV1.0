@@ -44,8 +44,8 @@ Tested On :
 - Linux
 - Termux
 - Python 3.x  
-- `aircrack-ng`, `scapy`, `reaver` (Install via `apt`):  
-
+- `aircrack-ng`, `scapy`, `reaver` (Install via `apt`):
+- 
 ```bash 
 1) sudo apt-get update && apt-get install git
 2) sudo git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
