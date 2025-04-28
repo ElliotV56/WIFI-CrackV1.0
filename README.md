@@ -29,13 +29,22 @@
 
 
 ## Installation  
+Tested On :
+
+    Kali Linux
+    BlackArch Linux
+    Ubuntu
+    Kali Nethunter
+    Termux ( Rooted Devices)
+    Parrot OS
+
 ### Prerequisites  
 - Linux
 - Termux
 - Python 3.x  
 - `aircrack-ng`, `scapy`, `reaver` (Install via `apt`):  
 
-```bash
+```bash install in KALI-Ubuntu
 1) sudo apt-get update && apt-get install git
 2) sudo git clone https://github.com/ElliotV56/WIFI-CrackV1.0.git
 3) cd WIFI-CRACK
