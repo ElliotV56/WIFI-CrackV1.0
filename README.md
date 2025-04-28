@@ -41,11 +41,10 @@ Tested On :
     Parrot OS
 
 ### Prerequisites  
-- Linux
-- Termux
--  Parrot OS
--  Ubuntu
--  Debian
+- Linux ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+- Termux ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
+-  Parrot OS ![Parrot OS](https://img.shields.io/badge/Parrot_OS-FF6600?style=for-the-badge&logo=parrotos&logoColor=white)
+-  Ubuntu ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ```bash
 1) sudo apt install python3-pip
 2) sudo apt-get update && apt-get install git
