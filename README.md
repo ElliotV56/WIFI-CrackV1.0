@@ -3,6 +3,8 @@
 *A powerful security auditing tool for testing Wi-Fi network vulnerabilities (WEP/WPA/WPA2).*  
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
+![Deauth Attack](screenshots/deauth.jpg)  
+*Deauthentication attack in progress (Kali Linux)*
 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.x-blue)  
 
@@ -21,7 +23,8 @@
 
 ## Installation  
 ### Prerequisites  
-- Linux (Kali Linux recommended)  
+- Linux
+- Termux
 - Python 3.x  
 - `aircrack-ng`, `scapy`, `reaver` (Install via `apt`):  
 
