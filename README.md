@@ -22,10 +22,10 @@
 ## 📸 Screenshots  
 
 ### **SCREENSHOTS**  
-![Termux Scan](main.png)  
+![WCRACK](main.png)  
 
 ### **SCREENSHOTS**  
-![Handshake Demo](main2.png)  
+![WCRACK](main2.png)  
 
 
 ## Installation  
