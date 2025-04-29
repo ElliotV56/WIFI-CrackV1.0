@@ -2,6 +2,12 @@
 # WiFi Cracking Tool 🔓📡  
 *A powerful security auditing tool for testing Wi-Fi network vulnerabilities (WEP/WPA/WPA2).*  
 
+![Views](https://komarev.com/ghpvc/?username=ElliotV56&repo=DDoS-Tool&label=PROJECT+VIEWS&color=red&style=flat-square)
+
+
+![WIFI-CRACK](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3p4NmxmbjNjYnUwNTVubTl5OHhkZ2xidTdqaHIzaGxkNTJkMzVtZiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/856zBNywYdamcDOTEt/giphy.gif)
+
+
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white)
 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
 ![Parrot OS](https://img.shields.io/badge/Parrot_OS-FF6600?style=for-the-badge&logo=parrotos&logoColor=white)
